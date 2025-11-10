@@ -12,7 +12,6 @@ Este projeto Flutter (“loomi‑project”) é uma aplicação mobile destinada
 - [Principais dependências](#principais‑dependências)  
 - [Estrutura de pastas](#estrutura‑de‑pastas)  
 - [Como executar](#como‑executar)  
-- [Como rodar testes](#como‑rodar‑testes)  
 - [Melhorias futuras](#melhorias‑futuras)
 
 ---
@@ -100,15 +99,6 @@ fvm flutter run -d <device_id>
 
 ---
 
-### Como rodar testes  
-Se o projeto possui testes (unidade/integrados):  
-```bash
-fvm flutter test
-```
-Certifique‑se que os mocks e injeções estejam configurados para testes.
-
----
-
 ### Melhorias futuras  
 - Adicionar suporte a ambientes (desenvolvimento, homologação, produção) com `.env` ou `flutter_dotenv`.  
 - Implementar interceptors do Dio para tratamento padrão de erros, refresh de token e logs de rede.  
@@ -116,3 +106,4 @@ Certifique‑se que os mocks e injeções estejam configurados para testes.
 - Documentar componentes e fluxos de navegação / estados da UI.  
 - Melhorar internacionalização (i18n) e acessibilidade.
 - Finalizar demais features faltantes.
+- Adicionar testes integrados e de Business logic.
